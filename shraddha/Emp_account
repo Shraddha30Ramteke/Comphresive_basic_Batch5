@@ -1,0 +1,27 @@
+class Emp_Account:
+    def __init__(self, emp_id, emp_name, emp_acct_balance):
+        self.EmpId = emp_id
+        self.EmpName = emp_name
+        self.EmpAcctBalance = emp_acct_balance
+
+    def creditAmount(self, amount):
+        self.EmpAcctBalance += amount
+        print(f"Amount {amount} credited. Updated balance: {self.EmpAcctBalance}")
+
+    def debitAmount(self, amount):
+        if amount <= self.EmpAcctBalance:
+            self.EmpAcctBalance -= amount
+            print(f"Amount {amount} debited. Updated balance: {self.EmpAcctBalance}")
+        else:
+            print("Insufficient balance. Debit operation failed.")
+
+    def printFinalBalance(self):
+        print(f"Final balance for {self.EmpName} (ID: {self.EmpId}): {self.EmpAcctBalance}")
+
+
+# Example usage:
+emp1 = Emp_Account(emp_id=101, emp_name="John Doe", emp_acct_balance=1000)
+
+emp1.creditAmount(500)
+emp1.debitAmount(200)
+emp1.printFinalBalance()
