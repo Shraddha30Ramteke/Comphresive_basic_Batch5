@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-16T12:15:19 IST" name="Default suite" finished-at="2023-11-16T12:15:50 IST" duration-ms="30387">
+    <groups>
+    </groups>
+    <test started-at="2023-11-16T12:15:19 IST" name="Default test" finished-at="2023-11-16T12:15:50 IST" duration-ms="30387">
+      <class name="Packag_comp.Comphre_class1">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Packag_comp.Comphre_class1@4f25b795]" started-at="2023-11-16T12:15:20 IST" name="setUp" finished-at="2023-11-16T12:15:23 IST" duration-ms="3891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPageLinks(java.lang.String,java.lang.String)[pri:0, instance:Packag_comp.Comphre_class1@4f25b795]" started-at="2023-11-16T12:15:23 IST" name="testPageLinks" data-provider="pageLinks" finished-at="2023-11-16T12:15:35 IST" duration-ms="11604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Why Autify]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Why Autify]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageLinks -->
+        <test-method signature="testPageLinks(java.lang.String,java.lang.String)[pri:0, instance:Packag_comp.Comphre_class1@4f25b795]" started-at="2023-11-16T12:15:35 IST" name="testPageLinks" data-provider="pageLinks" finished-at="2023-11-16T12:15:40 IST" duration-ms="4644" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pricing]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pricing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageLinks -->
+        <test-method signature="testPageLinks(java.lang.String,java.lang.String)[pri:0, instance:Packag_comp.Comphre_class1@4f25b795]" started-at="2023-11-16T12:15:40 IST" name="testPageLinks" data-provider="pageLinks" finished-at="2023-11-16T12:15:44 IST" duration-ms="4278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Webinars]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Webinars]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageLinks -->
+        <test-method signature="testPageLinks(java.lang.String,java.lang.String)[pri:0, instance:Packag_comp.Comphre_class1@4f25b795]" started-at="2023-11-16T12:15:44 IST" name="testPageLinks" data-provider="pageLinks" finished-at="2023-11-16T12:15:49 IST" duration-ms="5219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Guide]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Guide]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageLinks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Packag_comp.Comphre_class1@4f25b795]" started-at="2023-11-16T12:15:49 IST" name="tearDown" finished-at="2023-11-16T12:15:50 IST" duration-ms="614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Packag_comp.Comphre_class1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
